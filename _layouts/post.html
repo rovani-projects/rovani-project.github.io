@@ -4,20 +4,17 @@ layout: default
 
 <article class="post">
   <header>
-    <h2>{{ page.title }}</h2>
+    <h1 class="title">{{ page.title }}</h1>
     <time datetime="{{ page.date | date: " %F " }}">{{ page.date | date: "%e %B %Y" }}</time>
     &mdash;
     <span class="category">{{ page.category }}</span>
-    {% if page.treeid %}
-    <a href="https://github.com/drovani/Vigil/tree/{{ page.treeid }}" title="View this tree on Github">
-      <i class="fa fa-github" aria-hidden="true"></i>
-    </a>
+    {% if page.subtitle }}
+    <p class="subtitle">{{ page.subtitle }}</p>
     {% endif %}
   </header>
   <div class="entry">
     {{ content }}
     <div style="clear: both"></div>
   </div>
-
   {% include disqus.html %}
 </article>
