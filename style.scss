@@ -283,6 +283,21 @@ footer {
   text-align: center;
 }
 
+dl.list
+{
+  counter-reset: accordion-counter;
+  dt{
+    border: 1px solid black;
+    border-radius: .25em .25em 0 0;
+    :before
+    {
+      content: counter(accordion-counter, upper-roman) ". ";
+      counter-increment: accordion-counter;
+    }
+  }
+}
+
+@import "site";
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
