@@ -6,7 +6,8 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/*.vscode":true,
-        "**/*.sass-cache":true
+        "**/*.sass-cache":true,
+        "**/*_site": true
     },
     "search.exclude": {
         "**/node_modules": true,
