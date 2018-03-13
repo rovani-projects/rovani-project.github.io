@@ -283,16 +283,34 @@ footer {
   text-align: center;
 }
 
-dl.list
-{
+dl.list {
   counter-reset: accordion-counter;
-  dt{
+
+  img {
     border: 1px solid black;
+    border-radius: .25em;
+    padding: .25em;
+  }
+
+  dt {
+    border: 1px solid black;
+    border-bottom: none;
     border-radius: .25em .25em 0 0;
-    :before
-    {
-      content: counter(accordion-counter, upper-roman) ". ";
-      counter-increment: accordion-counter;
+    padding: 1em 0 .5em 1em;
+    background-color: lightblue;
+    font-weight: bold;
+  }
+    
+  dt:before {
+    content: counter(accordion-counter, upper-roman) ". ";
+    counter-increment: accordion-counter;
+  }
+
+  dd {
+    padding: .25em 1em;
+
+    > ol{
+      margin: 0;
     }
   }
 }

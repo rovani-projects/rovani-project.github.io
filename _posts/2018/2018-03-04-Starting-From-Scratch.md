@@ -14,11 +14,14 @@ Starting from a blank Windows 10 laptop, this is how I go about creating a secur
 
 {::options parse_block_html="true" /}
 Create Github and Github Organization Accounts
-: 1. Github makes signing up incredibly easy. Go to [https://github.com/join][github-join] and create an account.
+: 1. Github makes signing up incredibly easy. Go to [https://github.com/join][github-join]{:target="_blank"} and create an account.
   1. Create an Organization Account - I recommend doing this so you can easily transfer it to someone else in the future, add other collaborators, and generally get more features than if it was just a personal account. ![Github - New Organization]({{ site.assets }}/images/github-add-new.png)
+  1. Fill out the form, picking a unique organization name, putting in any email for Billing, and selecting the Free plan. ![Github - Sign up your team]({{ site.assets }}/images/github-sign-up-your-team.png)
+  1. No need to add any collaborators as this time (you can always add people later).
 
 Fork Jekyll Now
-: 1. Open the Jekyll Now Github page and click the Fork button. ![Github - Fork]({{ site.assets }}/images/github-fork.png)
+: 1. Open the [Jekyll Now Github][jekyll-now] page and click the Fork button. ![Github - Fork]({{ site.assets }}/images/github-fork.png)
+  1. Select your new organization and then let Github do its thing. After a brief pause, you'll now have your forked version of Jekyll Now ![Github - Forked Jekyll Now]({{ site.assets }}/images/github-forked-jekyll-now.png)
 
 Install and Configure Visual Studio Code
 : 1. Download [Visual Studio Code](https://go.microsoft.com/fwlink/?Linkid=852157)
@@ -59,3 +62,4 @@ Push changes to Github
 {: .list }
 
 [github-join]: <https://github.com/join?return_to=https%3A%2F%2Fgithub.com%2Forganizations%2Fnew&source=login>
+[jekyll-now]: <https://github.com/barryclark/jekyll-now>
