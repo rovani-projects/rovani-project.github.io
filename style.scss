@@ -46,6 +46,11 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 30px;
+
+  &.title{
+    text-align: center;
+  }
+
   a {
     color: inherit;
   }
@@ -257,7 +262,6 @@ nav {
     border-left: 2px solid $gray;
     padding: 0.1em 1em;
     color: $gray;
-    font-size: 22px;
     font-style: italic;
   }
 
@@ -287,7 +291,7 @@ dl.list {
   counter-reset: accordion-counter;
 
   img {
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: .25em;
     padding: .25em;
   }
@@ -308,6 +312,10 @@ dl.list {
 
   dd {
     padding: .25em 1em;
+    border: 1px solid black;
+    border-top: none;
+    border-radius: 0 0 .25em .25em;
+    margin-bottom: 1em;
 
     > ol{
       margin: 0;

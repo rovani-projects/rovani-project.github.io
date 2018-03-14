@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Starting From Scratch
-subtitle: A Highly Opinionated Guide to Using Github Pages, Jekyll, and Cloudflare to Create a Basic Website  
+subtitle: A Highly Opinionated Guide to Using Github Pages, Visual Studio Code, Jekyll, Google Domains, and Cloudflare to Create a Basic Secure Website  
 category: Guides
 tags:
 - github
@@ -25,8 +25,8 @@ Fork Jekyll Now
 
 Install and Configure Visual Studio Code
 : 1. Download [Visual Studio Code](https://go.microsoft.com/fwlink/?Linkid=852157)
-  1. Install Ubuntu for Windows
-  1. Install Jekyll for Windows
+  1. Install [Ubuntu for Windows](https://www.microsoft.com/store/productId/9NBLGGH4MSV6)
+  1. Install Jekyll with _bash_
   1. Configure git (credential manager)
 
 Clone, mirror, check-in githubpages.io
@@ -35,7 +35,9 @@ Clone, mirror, check-in githubpages.io
   1. Then _git push_
 
 Register Domain
-: 1. Google Domains
+: 1. Search for your domain on [Google Domains](https://domains.google.com/registrar#chp=sp&sp)
+  1. Add one or more domains to your cart ![Google Domain Search]({{ site.assets }}/images/google-search-domains.png)
+  1. Proceed through Check out ![Google Domain Check out]({{ site.assets }}/images/google-purchase-domains.png)
 
 Create Cloudflare Account
 : 1. Get nameservers
