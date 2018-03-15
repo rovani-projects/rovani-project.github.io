@@ -10,7 +10,7 @@ tags:
 - cloudflare
 ---
 
-Starting from a blank Windows 10 laptop, this is how I go about creating a secure, robust website. Many of the steps below only have to be done the first time through (installing Visual Studio Code, creating a Github account, etc., but these steps are what we use to quickly get _something_ in front of a client. It is also how this website was originally built.
+Starting from a blank Windows 10 laptop, this is how we go about creating a secure, robust website. Some of the steps below only have to be done the first time through (installing Visual Studio Code, creating a Github account, etc.), but these steps are what we use to quickly get _something_ in front of a client. It is also how this website was originally built.
 
 {::options parse_block_html="true" /}
 Create Github and Github Organization Accounts
