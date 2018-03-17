@@ -12,6 +12,9 @@ layout: default
     &mdash;
     <span class="category">{{ page.category }}</span>
   </header>
+  {% if page.series %}
+    {% include series.html %}
+  {% endif %}
   <div class="entry">
     {{ content }}
     <div style="clear: both"></div>

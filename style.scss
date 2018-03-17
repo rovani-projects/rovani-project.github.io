@@ -287,6 +287,15 @@ footer {
   text-align: center;
 }
 
+aside.tableofcontents {
+  font-size: 75%;
+  float: right;
+  border: 1px solid black;
+  border-radius: 1em 0;
+  padding: 1em;
+  margin: 1em 0 1em 1em;
+}
+
 dl.list {
   counter-reset: accordion-counter;
 
