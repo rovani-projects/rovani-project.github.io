@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Starting From Scratch - First Time Only
-subtitle: A Highly Opinionated Guide to Using Github Pages, Visual Studio Code, Jekyll, Google Domains, and Cloudflare to Create a Basic Secure Website  
+subtitle: A Highly Opinionated Guide to Using GitHub Pages, Visual Studio Code, Jekyll, Google Domains, and Cloudflare to Create a Basic Secure Website  
 category: Guides
 series: starting-from-scratch
 tags:
@@ -11,7 +11,7 @@ tags:
 - jekyllonwindows
 ---
 
-Starting from a blank Windows 10 laptop, this is how we go about creating a secure, robust website. The steps in this post only have to be done the first time through (installing Visual Studio Code, creating a Github account, etc.). The following posts in the series will be about what we use to quickly get _something_ in front of a client. It is also how this website was originally built.
+Starting from a blank Windows 10 laptop, this is how we go about creating a secure, robust website. The steps in this post only have to be done the first time through (installing Visual Studio Code, creating a GitHub account, etc.). The following posts in the series will be about what we use to quickly get _something_ in front of a client. It is also how this website was originally built.
 
 {::options parse_block_html="true" /}
 Install Ubuntu for Windows
@@ -28,10 +28,11 @@ Install [Git for Windows](https://git-scm.com/download/win){:target="_blank"}
   1. MinTTY is a powerful tool, but keeping with the built-in terminal emulator means less components to install. ![Git Setup - Terminal Emulator]({{ site.images }}/git-setup-terminal.png)
   1. "Enable Git Credential Manager" is a setting that ends up being one of the most time-saving checkboxes. ![Git Setup - Extras]({{ site.images }}/git-setup-extras.png)
 
-Download and Setup [Visual Studio Code](https://go.microsoft.com/fwlink/?Linkid=852157){:target="_blank"}
-: 1. Technically, Jekyll could be installed using any terminal. However, I prefer to do it from within VS Code.
+Download and Setup [Visual Studio Code](https://code.visualstudio.com) (a free, open source editor from Microsoft)
+: 1. Download [Visual Studio Code installer](https://go.microsoft.com/fwlink/?Linkid=852157){:target="_blank"} for Windows.
+  1. Technically, Jekyll could be installed using any terminal. However, I prefer to do it from within VS Code.
   1. Open a terminal (``` Ctrl+` ```) and follow the directions from [Jekyll on Windows](https://jekyllrb.com/docs/windows/#installation-via-bash-on-windows-10){:target="_blank"}
 
-Create Github Accounts
-: 1. Github makes signing up incredibly easy. Go to [https://github.com/join](https://github.com/join){:target="_blank"} and create an account.
+Create GitHub Accounts
+: 1. GitHub makes signing up incredibly easy. Go to [https://github.com/join](https://github.com/join){:target="_blank"} and create an account.
 {: .list }
