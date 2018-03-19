@@ -1,13 +1,12 @@
 ---
 layout: post
 title: Registering the Domain and Securing the Website
-subtitle: A Highly Opinionated Guide to Using GitHub Pages, Visual Studio Code, Jekyll, Google Domains, and Cloudflare to Create a Basic Secure Website  
+subtitle: A Highly Opinionated Guide to Using GitHub Pages, Visual Studio Code, Jekyll, Google Domains, and Cloudflare to Create a Basic Secure Website
 category: Guides
 series: starting-from-scratch
 tags:
 - github
 - googledomains
-- jekyll
 - cloudflare
 ---
 

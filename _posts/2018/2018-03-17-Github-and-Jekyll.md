@@ -8,7 +8,6 @@ tags:
 - github
 - googledomains
 - jekyll
-- cloudflare
 ---
 
 Since this is a "Highly Opinionated Guide", all of the following is done strictly within Visual Studio code. Most of the terminal commands could be executed in a Windows terminal, but I like to keep it all in one place.
