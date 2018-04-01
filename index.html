@@ -2,17 +2,61 @@
 layout: default
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+{% if paginator.previous_page %}
+<section class="pagination">
+  <span class="previous">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="pager-text">
+      <i class="fas fa-long-arrow-alt-left"></i>
+      Newer Posts
+    </a>
+    {% endif %}
+  </span>
+  <span class="page_number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  <span class="next">
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next pager-text">
+      Older Posts
+      <i class="fas fa-long-arrow-alt-right"></i>
+    </a>
+    {% endif %}
+  </span>
+</section>
+{% endif %}
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+<section class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+    <h1>
+      <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+    </h1>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+    <div class="entry">
+      {{ post.excerpt }}
+    </div>
+
+    <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+  </article>
   {% endfor %}
-</div>
+</section>
+
+<section class="pagination">
+  <span class="previous">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="pager-text">
+      <i class="fas fa-long-arrow-alt-left"></i>
+      Newer Posts
+    </a>
+    {% endif %}
+  </span>
+  <span class="page_number">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  <span class="next">
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next pager-text">
+      Older Posts
+      <i class="fas fa-long-arrow-alt-right"></i>
+    </a>
+    {% endif %}
+  </span>
+</section>

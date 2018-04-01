@@ -55,6 +55,8 @@ images: /assets/images
 #
 
 permalink: /:title/
+paginate: 7
+excerpt_separator: "\r\n"
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
