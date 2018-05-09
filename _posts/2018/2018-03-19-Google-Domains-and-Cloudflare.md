@@ -12,6 +12,7 @@ tags:
 
 The previous post covered creating a website. Everything to this point has been completely free, with the only investment being time. Now comes the one piece in the whole series were it costs something - registering the domain. We debated whether this actually comes first in the process - since knowning the domain name could drive the decisions for what the GitHub Organization name is, which in turn drives the name of the repository. However, it really doesn't matter, since the domain name and the GitHub account name have no dependancies on each other.
 
+
 {::options parse_block_html="true" /}
 Register Domain
 : 1. Search for your domain on [Google Domains](https://domains.google.com/registrar#chp=sp&sp){:target="_blank"}
